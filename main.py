@@ -12,8 +12,8 @@ def passwordGenerator(given_length):
 while True:
     try:
         length = int(input("Choose the length of the password: "))
-        if not 6 <= length <= 32:
-            print("Please provide an number between 6 - 32!")
+        if not 8 <= length <= 32:
+            print("Please provide an number between 8 - 32!")
             continue
         else:
             print(passwordGenerator(length))
